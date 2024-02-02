@@ -1,0 +1,102 @@
+ 
+ p{
+     background-color: gray ;
+     display: inline-block;
+     border: 5px;
+     
+  position: relative;
+     border-color: black;
+     padding: 10px; 
+     margin:10px;
+     margin-right: 10px;
+     border: 2px solid black;
+    width:30% ;
+    height: 30%;
+    display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     float: left;
+     
+      }
+       
+       
+ h1{
+   text-align: center; 
+}
+*{
+    box-sizing: border-box;
+}
+ 
+ .backghround1{
+    background-color: hsl(15, 58%, 81%)   ;
+   display: inline-block;
+ position: absolute;
+     top: 1px;
+    
+   right: 1px;
+    border: 0.2px;  
+    padding: 0px;
+    margin: 0px;
+    height: 0.5cm;
+    width: 30%;
+ text-align: center;
+    border-spacing:0px;
+ clear: right;
+    border: 1px    solid black;    
+    border-top: none;
+    border-right: none;
+}
+.backghround2{
+    position: absolute;
+    top: 1px;
+    right: 1px;
+background-color: rgb(201, 99, 81);
+display: inline-block;
+color: aliceblue;
+right: 1px;
+border: 0.2px;  
+padding: 0px;
+margin: 0px;
+height: 0.5cm;
+width: 30%;
+text-align: center;
+border: 1px solid black;
+border-top: none;
+border-right: none;
+}
+.backghround3{
+background-color:rgb(236, 196, 93);
+display: inline-block;
+position: absolute;
+top: 1px;
+right: 1px;
+border: 0.2px;  
+padding: 0px;
+margin: 0px;
+height: 0.5cm;
+width: 30%;
+text-align: center;
+border: 1px solid black;
+border-top: none;
+border-right: none;
+}
+/* Desktop Layout */
+.desktop-layout {
+    width: 33.33%;
+    float: left;
+}
+
+/* Tablet Layout */
+@media (max-width: 991px) and (min-width: 768px) {
+    .desktop-layout {
+        width: 50%;
+    }
+}
+
+/* Mobile Layout */
+@media (max-width: 767px) {
+    .desktop-layout {
+        width: 100%;
+    }
+}
+ 
